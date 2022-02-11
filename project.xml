@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="OpenFL with Genes" package="com.feathersui.samples.OpenFLGenes" version="1.0.0" company="Bowler Hat LLC"/>
+	<app main="Main" file="openfl-genes"/>
+
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+	<haxelib name="genes"/>
+
+	<!-- use a special HTML/JS template for genes -->
+	<template path="templates" if="html5"/>
+</project>
