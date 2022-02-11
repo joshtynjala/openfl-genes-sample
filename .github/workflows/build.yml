@@ -1,0 +1,23 @@
+name: Build
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: krdlab/setup-haxe@v1
+      with:
+        haxe-version: 4.0.5
+    - name: Set up Haxelib dependencies
+      run: |
+        haxelib git genes https://github.com/joshtynjala/genes.git cast-interface --quiet
+        haxelib install lime --quiet
+        haxelib install openfl --quiet
+    - name: Build html5 target
+      run: haxelib run openfl build html5 -debug
