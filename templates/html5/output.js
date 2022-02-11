@@ -4,5 +4,5 @@ import {System} from "./lime/system/System.js"
 window.lime = window.lime || {};
 window.lime.embed = window.lime.embed || System.embed;
 
-::if embeddedLibraries::(function(){::foreach (embeddedLibraries)::
+::if embeddedLibraries::(function(window){::foreach (embeddedLibraries)::
 ::__current__::::end::})(window)::end::
