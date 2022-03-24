@@ -26,7 +26,6 @@ openfl test html5 -debug
 
 ## Warning
 
-This project currently relies on the following bug fixes in Lime and Genes, and these changes haven't been released to Haxelib yet.
+This project currently relies on the following bug fix in Lime, and it hasn't been released to Haxelib yet.
 
 - [Lime commit 925e2b67e717327a1782ae20705fc74455e2ea45](https://github.com/haxelime/lime/commit/925e2b67e717327a1782ae20705fc74455e2ea45)
-- [Genes pull request #64](https://github.com/benmerckx/genes/pull/64).
