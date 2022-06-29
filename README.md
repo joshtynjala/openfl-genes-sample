@@ -26,8 +26,16 @@ That's it! You don't need to do anything special to build and run.
 openfl test html5 -debug
 ```
 
+### Bundlers
+
+To use a bundler with the JavaScript modules generated with Genes, check out the following projects.
+
+- [webpack-openfl-loader](https://github.com/feathersui/webpack-openfl-loader)
+- [vite-plugin-openfl](https://github.com/feathersui/vite-plugin-openfl)
+
 ## Requirements
 
 - Genes 0.4.4 or newer
 - Lime 8.0.0 or newer
   - This project currently relies on the following bug fix in Lime, which hasn't been released to Haxelib yet: [Lime commit 925e2b6](https://github.com/haxelime/lime/commit/925e2b67e717327a1782ae20705fc74455e2ea45)
+  
