@@ -44,7 +44,7 @@ class Main extends Sprite {
 		button.alpha = 0.5;
 
 		// load the module on demand
-		Genes.dynamicImport(MyModule -> new MyModule()).then((module) -> {
+		Genes.dynamicImport(MyModule -> new MyModule()).then(function(module):Void {
 			module.x = 10.0;
 			module.y = 120.0;
 			addChild(module);
