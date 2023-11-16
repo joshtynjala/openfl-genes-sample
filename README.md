@@ -37,5 +37,3 @@ To use a bundler with the JavaScript modules generated with Genes, check out the
 
 - Genes 0.4.4 or newer
 - Lime 8.0.0 or newer
-  - This project currently relies on the following bug fix in Lime, which hasn't been released to Haxelib yet: [Lime commit 925e2b6](https://github.com/haxelime/lime/commit/925e2b67e717327a1782ae20705fc74455e2ea45)
-  
