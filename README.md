@@ -37,3 +37,7 @@ To use a bundler with the JavaScript modules generated with Genes, check out the
 
 - Genes 0.4.4 or newer
 - Lime 8.0.0 or newer
+
+## Credits
+
+Sample created by [Josh Tynjala](https://github.com/sponsors/joshtynjala), the author of [Feathers UI](https://feathersui.com/) and core contributor to [OpenFL](https://openfl.org/).
