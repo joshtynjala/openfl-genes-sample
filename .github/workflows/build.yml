@@ -20,4 +20,4 @@ jobs:
         haxelib install lime --quiet
         haxelib install openfl --quiet
     - name: Build html5 target
-      run: haxelib run openfl build html5 -debug
+      run: haxelib run lime build html5 -debug

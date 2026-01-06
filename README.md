@@ -21,7 +21,7 @@ Copy the _templates_ directory from this repository to your project. Then, add t
 That's it! You don't need to do anything special to build and run.
 
 ```sh
-openfl test html5 -debug
+lime test html5 -debug
 ```
 
 ### Bundlers
