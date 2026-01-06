@@ -35,6 +35,7 @@ To use a bundler with the JavaScript modules generated with Genes, check out the
 
 - Genes 0.4.4 or newer
 - Lime 8.0.0 or newer
+- OpenFL 9.2.0 or newer
 
 ## Credits
 
