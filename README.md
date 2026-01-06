@@ -4,8 +4,6 @@ Compiles an [OpenFL](https://openfl.org/) project using the [Genes](https://lib.
 
 Genes modifies the behavior of the Haxe compiler to split the generated JavaScript into modern [modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), instead of a single monolithic bundle. This makes it easier to integrate Haxe projects with other tooling from the JavaScript ecosystem.
 
-Sample created by [Josh Tynjala](https://twitter.com/joshtynjala), the author of [Feathers UI](https://feathersui.com/).
-
 ## Usage
 
 Add the [genes](https://lib.haxe.org/p/genes) Haxelib to your _project.xml_ file:
